@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.users-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.user-card{
+    margin: 2rem;
+}
+
+.heart{
+    color: red;
+    outline: none;
+}
+
+.user-actions{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem;
+    flex-wrap: wrap;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.input {
+    margin: 10px 10px 10px 0;
+    padding: 5px 55px 5px 10px;
+    border-radius: 3px;
+}
